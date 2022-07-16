@@ -1,0 +1,44 @@
+* {
+  font-family: "roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 4px green solid;
+  width: 100%;
+  display: flex;
+  padding: 24px;
+}
+.box {
+  border: 4px grey solid;
+  height: 100px;
+}
+.box-small {
+  border: 4px grey solid;
+  width: 30%;
+}
+.box-large {
+  border: 4px grey solid;
+  width: 50%;
+  height: auto;
+  margin-left: 24px;
+}
+.box-medium {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.box-wrapper {
+    width: 50%;
+}
+.small-box-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
