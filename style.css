@@ -1,0 +1,29 @@
+* {
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 4px lightgray solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.box {
+    border: 4px black solid;
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+.box-large {
+    width: 75px;
+    height: 75px;
+}
+
+.box-wrapper{
+    display: flex;
+
+
+}
