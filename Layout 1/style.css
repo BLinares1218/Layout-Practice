@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     padding: 24px;
+    align-items: center;
 }
 .box {
     border: 4px black solid;
@@ -24,6 +25,15 @@
 
 .box-wrapper{
     display: flex;
+    
 
 
+}
+.row {
+    margin: auto;
+    display: flex;
+    width: 100;
+    max-width: 600px;
+    align-items: center;
+    
 }
